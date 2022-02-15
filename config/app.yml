@@ -1,8 +1,8 @@
 ---
 app:
   name: OpenDAX
-  domain: wexplore3d.com
-  subdomain: exe
+  domain: holatoken.xyz
+  subdomain: ex
   show_landing: true
 render_protect: false
 csrfEnabled: false
@@ -24,17 +24,17 @@ vendor:
   frontend: git@github.com:openware/baseapp.git
 kyc:
   provider: kycaid
-  authorization_token: 9f64001a16a3b142c21b7754b0c9ffc40b2a
+  authorization_token: 
   sandbox_mode: true
   api_endpoint: https://api.kycaid.com/
 vault:
-  root_token: s.wqPHffvPXPgkZphmLE99SXlQ
-  peatio_rails_token: s.rmgaTiMSYPqv6pDiCgBIjsva
-  peatio_crypto_token: s.xyvqwPN4phSndUv3bYKsVGpi
-  peatio_upstream_token: s.V9PWmELMWAtVPZnfL3oRbzz0
-  peatio_matching_token: s.ykIXiEXVl0we9orl5ZdJ8lGP
-  barong_token: s.FpQGNYQBYMULUPV2gKyhPdMW
-  finex_engine_token: s.fxhgKEQCftskEwT6aSNDO6yN
+  root_token: 
+  peatio_rails_token: 
+  peatio_crypto_token: 
+  peatio_upstream_token: 
+  peatio_matching_token: 
+  barong_token: 
+  finex_engine_token: 
 database:
   host: db
   adapter: mysql
@@ -64,8 +64,8 @@ smtp:
   port: 2525
   user: apikey
   password: changeme
-  sender_email: noreply@wexplore3d.com
-  sender_name: Wexplore3d
+  sender_email: noreply@.com
+  sender_name: 
   sender_logo: https://storage.googleapis.com/public_peatio/logo.png
 wallets:
   eth:
